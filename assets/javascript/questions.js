@@ -1,22 +1,36 @@
 const quizQuestions = [
     {
-        question: "What is my name?",
-        choices: ["Bob", "Harry", "Gary", "Tanya"],
-        correctAnswer: "Tanya"
+        question: "What was the first planet discovered by telescope in 1781?",
+        choices: ["Mars", "Uranus", "The Moon", "Pluto"],
+        correctAnswer: "Uranus"
 
     },
 
     {
-        question: "What is your favorite drink?",
-        choices: ["beer", "wine", "whiskey", "water"],
-        correctAnswer: "whiskey"
+        question: "What is the ballet term for a 360-degre trun on on foot?",
+        choices: ["Leap", "Bounce-squat", "Foot-Spin", "Pirouette"],
+        correctAnswer: "Pirouette"
 
     },
 
     {
-        question: "Where do you live?",
-        choices: ["Newmarket", "Dover", "Exeter", "Salem"],
-        correctAnswer: "Exeter"
+        question: "How many feet in 1 mile?",
+        choices: ["1,852", "3,289", "5,280", "One Gazillion"],
+        correctAnswer: "5,280"
+
+    },
+
+    {
+        question: "Name the world's largest ocean?",
+        choices: ["Atlantic", "Indian", "Pacific", "Beaver Pond"],
+        correctAnswer: "Pacific"
+
+    },
+
+    {
+        question: "What is the captital city of Spain?",
+        choices: ["Sevilla", "Barcelona", "Exeter", "Madrid"],
+        correctAnswer: "Madrid"
 
     }
 
@@ -24,22 +38,19 @@ const quizQuestions = [
 
 const funImages = [
 
-  
-    
-    '/assets/images/AnnaYes.gif',
-    '/assets/images/DorkYes.gif',
-    '/assets/images/FunnyYes.gif',
-    '/assets/images/WillFerrellCelebrate.gif',
-    '/assets/images/Yay.gif',
-    '/assets/images/YesGirl.gif',
+    'assets/images/AnnaYes.gif',
+    'assets/images/DorkYes.gif',
+    'assets/images/FunnyYes.gif',
+    'assets/images/WillFerrellCelebrate.gif',
+    'assets/images/Yay.gif',
+    'assets/images/YesGirl.gif',
 
 ];
 
 const sadImages = [
 
-    '/assets/images/BritanyWrong.gif',
-    '/assets/images/Duck No.gif',
-    '/assets/images/MinonWrong',
-    '/assets/images/Sloth No.gif',
-    '/assets/images/TrumpWrong.gif',
+    'assets/images/BritanyWrong.gif',
+    'assets/images/Duck No.gif',
+    'assets/images/MinonWrong',
+    'assets/images/TrumpWrong.gif',
 ];

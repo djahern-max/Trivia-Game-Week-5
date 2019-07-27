@@ -1,6 +1,6 @@
 // Initial values
 
-let counter = 5;
+let counter = 10;
 let currentQuestion = 0;
 let score = 0;
 let lost = 0;
@@ -43,7 +43,7 @@ function countDown() {
 }
 
 function loadQuestion() {
-    counter = 5;
+    counter = 10;
     timer = setInterval(countDown, 1000);
 
     const question = quizQuestions[currentQuestion].question; //
@@ -143,15 +143,15 @@ function preloadImage(status) {
 
 if (status === 'win') {
     $('#game').html(`
-        <p class="preload-images">Congratulations, you picked the correct answer</p>
-        <p class="preload-images">The correct answer is <b>${correctAnswer}</b></p>
-        <img> src="${randomImage(funImages)}"/>
+        <h1 class="preload-images">Congratulations, you picked the correct answer</h1>
+        <p class="reload-images">The correct answer is <b>${correctAnswer}</b></p>
+        <img src="${randomImage(funImages)}"/>
     `);
 } else {
     $('#game').html(`
     <p class="preload-images">The correct answer was <b>${correctAnswer}</b></p>
     <p class="preload-images">Oh man that was bad!</p>
-    <img> src="${randomImage(sadImages)}"/>
+    <img src="${randomImage(sadImages)}"/>
     `);
 
 }   
