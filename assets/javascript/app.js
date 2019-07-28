@@ -1,6 +1,6 @@
 // Initial values
 
-let counter = 10;
+let counter = 20;
 let currentQuestion = 0;
 let score = 0;
 let lost = 0;
@@ -43,7 +43,7 @@ function countDown() {
 }
 
 function loadQuestion() {
-    counter = 10;
+    counter = 20;
     timer = setInterval(countDown, 1000);
 
     const question = quizQuestions[currentQuestion].question; //

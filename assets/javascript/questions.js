@@ -38,19 +38,21 @@ const quizQuestions = [
 
 const funImages = [
 
-    'assets/images/AnnaYes.gif',
-    'assets/images/DorkYes.gif',
-    'assets/images/FunnyYes.gif',
+    // 'assets/images/AnnaYes.gif',
+    // 'assets/images/DorkYes.gif',
+    // 'assets/images/FunnyYes.gif',
     'assets/images/WillFerrellCelebrate.gif',
-    'assets/images/Yay.gif',
-    'assets/images/YesGirl.gif',
+    // 'assets/images/Yay.gif',
+    // 'assets/images/YesGirl.gif',
 
 ];
 
 const sadImages = [
 
-    'assets/images/BritanyWrong.gif',
-    'assets/images/Duck No.gif',
-    'assets/images/MinonWrong',
-    'assets/images/TrumpWrong.gif',
+    // 'assets/images/BritanyWrong.gif',
+    // 'assets/images/Duck No.gif',
+    // 'assets/images/MinonWrong',
+    // 'assets/images/TrumpWrong.gif',
+    'assets/images/claires picture.gif',
+
 ];
